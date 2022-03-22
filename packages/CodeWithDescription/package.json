@@ -22,5 +22,8 @@
   },
   "author": "nic-s",
   "license": "ISC",
-  "gitHead": "710305ad9da5453754092d9396c3090d735fa71c"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "9f5b182595a1f4f7879b29e4981cd1a2fffe1982"
 }
