@@ -1,11 +1,14 @@
 {
   "name": "@wolf86/code-with-description",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Code with Description",
   "main": "dist/CodeWithDescription.cjs.js",
   "module": "dist/CodeWithDescription.esm.js",
   "src": "src/CodeWithDescription.js",
-  "files": ["src", "dist"],
+  "files": [
+    "src",
+    "dist"
+  ],
   "peerDependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",

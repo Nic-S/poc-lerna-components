@@ -1,11 +1,14 @@
 {
   "name": "@wolf86/concentric-circle-icon",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Concentric circle icon",
   "main": "dist/ConcentricCircleIcon.cjs.js",
   "module": "dist/ConcentricCircleIcon.esm.js",
   "src": "src/ConcentricCircleIcon.js",
-  "files": ["src", "dist"],
+  "files": [
+    "src",
+    "dist"
+  ],
   "peerDependencies": {
     "@emotion/react": "^11.8.2",
     "@mui/icons-material": "^5.5.1",
