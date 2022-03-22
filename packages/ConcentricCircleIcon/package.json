@@ -5,6 +5,7 @@
   "main": "dist/ConcentricCircleIcon.cjs.js",
   "module": "dist/ConcentricCircleIcon.esm.js",
   "src": "src/ConcentricCircleIcon.js",
+  "files": ["src", "dist"],
   "peerDependencies": {
     "@emotion/react": "^11.8.2",
     "@mui/icons-material": "^5.5.1",

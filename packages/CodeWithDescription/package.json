@@ -5,6 +5,7 @@
   "main": "dist/CodeWithDescription.cjs.js",
   "module": "dist/CodeWithDescription.esm.js",
   "src": "src/CodeWithDescription.js",
+  "files": ["src", "dist"],
   "peerDependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
