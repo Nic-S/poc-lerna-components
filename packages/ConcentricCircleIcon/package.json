@@ -20,5 +20,6 @@
     "build:cjs": "tsc --module commonjs --target es5 --outDir dist/cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "nic-s"
+  "author": "nic-s",
+  "gitHead": "710305ad9da5453754092d9396c3090d735fa71c"
 }

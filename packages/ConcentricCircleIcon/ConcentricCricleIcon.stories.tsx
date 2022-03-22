@@ -17,7 +17,7 @@ export const dateRangeIcon = Template.bind({})
 
 dateRangeIcon.args = {
   size: 'small',
-  innerIcon: (innerWidth, innerHeight) => (
+  innerIcon: (innerWidth?: string | number , innerHeight?: string | number) => (
     <DateRange width={innerWidth} height={innerHeight} />
   ),
   onClick: undefined
