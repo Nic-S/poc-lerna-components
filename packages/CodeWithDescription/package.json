@@ -1,6 +1,6 @@
 {
   "name": "@wolf86/codewithdescription",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Code with Description",
   "main": "dist/CodeWithDescription.cjs.js",
   "module": "dist/CodeWithDescription.esm.js",
@@ -23,6 +23,5 @@
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.5.2"
-  },
-  "devDependencies": {}
+  }
 }
