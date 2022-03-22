@@ -1,0 +1,41 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "start-storybook -p 5555",
+    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.stories.js,**/*.spec.js",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-interactions": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/builder-webpack5": "^6.4.19",
+    "@storybook/manager-webpack5": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@storybook/testing-library": "^0.0.9",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.14",
+    "@types/react": "^17.0.37",
+    "@types/react-datepicker": "^4.3.4",
+    "@types/react-dom": "^17.0.11",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-styled-components": "^2.0.6",
+    "lerna": "^4.0.0",
+    "webpack": "^5.70.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.4"
+  }
+}

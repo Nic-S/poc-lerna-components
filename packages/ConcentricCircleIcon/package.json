@@ -1,0 +1,25 @@
+{
+  "name": "@wolf86/concentric-circle-icon",
+  "version": "0.0.0",
+  "description": "Concentric circle icon",
+  "main": "dist/ConcentricCircleIcon.cjs.js",
+  "module": "dist/ConcentricCircleIcon.esm.js",
+  "src": "src/ConcentricCircleIcon.js",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.2",
+    "@emotion/react": "^11.8.2"
+  },
+  "scripts": {
+    "npm:install": "npm i",
+    "npm:ci": "npm ci",
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc --module es2015 --target es5 --outDir dist/esm",
+    "build:cjs": "tsc --module commonjs --target es5 --outDir dist/cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nic-s",
+  "license": "ISC"
+}
