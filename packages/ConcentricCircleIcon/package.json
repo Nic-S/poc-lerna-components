@@ -1,6 +1,6 @@
 {
   "name": "@wolf86/concentric-circle-icon",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Concentric circle icon",
   "main": "dist/ConcentricCircleIcon.cjs.js",
   "module": "dist/ConcentricCircleIcon.esm.js",
@@ -20,6 +20,5 @@
     "build:cjs": "tsc --module commonjs --target es5 --outDir dist/cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "nic-s",
-  "license": "ISC"
+  "author": "nic-s"
 }
