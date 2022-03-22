@@ -1,6 +1,6 @@
 {
   "name": "@wolf86/concentric-circle-icon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Concentric circle icon",
   "main": "dist/ConcentricCircleIcon.cjs.js",
   "module": "dist/ConcentricCircleIcon.esm.js",
